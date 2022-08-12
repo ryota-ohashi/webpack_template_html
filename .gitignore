@@ -1,0 +1,6 @@
+npm-debug.log
+~*
+.DS_Store
+Desktop.ini
+Thumbs.db
+node_modules
