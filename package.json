@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "concurrently \"npm run watch:scss\" \"npm run watch:webpack\" \"npm run server\"",
     "build": "npm run scss && npm run webpack",
-    "scss": "sass src/assets/scss:dist/assets/css --style=compressed --no-source-map",
-    "watch:scss": "sass src/assets/scss:dist/assets/css -w --no-source-map",
+    "scss": "sass src/assets/scss/page:dist/assets/css --style=compressed --no-source-map",
+    "watch:scss": "sass src/assets/scss/page:dist/assets/css -w --no-source-map",
     "server": "browser-sync start --port 8000 -s dist",
     "watch:webpack": "webpack --mode development --watch",
     "webpack": "webpack --mode production"

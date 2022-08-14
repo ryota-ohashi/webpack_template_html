@@ -1,0 +1,21 @@
+@use "../base/reset.scss";
+
+.header{
+  height: 60px;
+  background-color: #999;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 100px;
+
+  &__list{
+    display: flex;
+    & > li + li{
+      margin-left: 15px;
+    }
+  }
+}
